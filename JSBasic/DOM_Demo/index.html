@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css1.css">
+    <script src="./js1.js" defer></script>
+    <title>Demo Application</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Task Manager</h1>
+            <ul class="navitem" id="ul1">
+                <li><a href="">Home</a></li>
+                <li><a href="">To Do</a></li>
+                <li><a href="./login.html">Logout</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="headElement">Manage Task</h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+
+    <section class="todo-section container">
+        <h2>Your plan for today..</h2>
+        
+        <form class="form-todo">
+            <input type="text" name="txttask" id="txttask" placeholder="Add your Task.."/>
+            <input type="submit" value="Add Task" class="btn" />
+        </form>
+
+        <ul class="tasks">
+            <li>
+                <span>1st Task</span>
+                <div class="taskbtn">
+                    <button class="tbtn done">Done</button>
+                    <button class="tbtn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

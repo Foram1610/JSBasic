@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    font-family: 'Bitter', serif;
+}
+.bgbody{
+    background: url(./bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+    position:relative;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 60vh; /* vh = viewport height */
+    background: url(./bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position:relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.a1{
+    color:#511f29;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+}
+.container1{
+    max-width: 1000px;
+    margin: auto;
+    width: 40%;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    min-height: 8vh;
+    align-items: center;
+}
+.navitem{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.headline{
+    position: absolute; /* header's position relative*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem; /* rem = root elememt 1rem=16px*/
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    background-color: lightgrey;
+}
+.todo-section{
+    margin-top: 5rem;
+    text-align: center;
+}
+.form-todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.form-todo input{
+    min-height: 100%;
+}
+.form-todo input[type='text']{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form-todo input[type='submit']{
+    width: 20%;
+    background: #511f29;
+    color: white;
+    font-weight: 500;
+}
+.sign-section{
+    margin: 5rem auto;
+    text-align: center; 
+    background-color: rgb(241, 229, 240);
+    border-radius: 10px;
+    padding: 1rem;
+}
+.form-signup{
+    width: 80%;
+    max-width: 800px;
+    text-align:left;
+    margin: auto;
+}
+.form-signup label{
+    display: block;
+}
+.form-signup input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+.form-signup textarea{
+    width: 100%;
+}
+.form-margin{
+    margin-top: 1rem;
+}
+.btn-sub{
+    background: #511f29;
+    color: white;
+    padding: 1rem 3rem;
+    margin: auto;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.tasks{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 1rem;
+}
+.tasks li{
+    padding: 0.7rem;
+    background-color: rgb(241, 229, 240);
+    margin-top: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tbtn{
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    background: #511f29;
+    color: white; 
+}
